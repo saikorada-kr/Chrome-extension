@@ -1,0 +1,17 @@
+.wrapper{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(215, 236, 255);
+}
+#heading{
+    font-size: 30px;
+    font-style: italic;
+    font-family: cursive;
+}
+#text{
+    border:1px;
+    border-radius: 5px;
+    height:200px;
+    width:300px;
+    background-color: rgb(215, 236, 255);
+}
