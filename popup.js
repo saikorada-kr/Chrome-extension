@@ -1,6 +1,6 @@
 $(function(){
     $('name').keyup(function(){
-        $('#text').text(('#text').val());
+        $('#text').text(('#text').val());d
     });
         $("#btn1").click(function(){
         var value=$('textarea#text').val();
@@ -8,8 +8,7 @@ $(function(){
 });
     $("#btn").click(function(){
         chrome.storage.sync.get('mynotes',function(data){
-         alert(data.mynotes);
-         console.log(mynotes)
+         $('#text').text(data.mynotes);
         });
     }); 
 });
