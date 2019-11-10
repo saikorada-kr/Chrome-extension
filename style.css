@@ -1,7 +1,7 @@
 .wrapper{
     height: 200px;
     width: 300px;
-    background-color: rgb(215, 236, 255);
+    background-color: rgb(193, 248, 245);
 }
 #heading{
     font-size: 30px;
@@ -13,5 +13,23 @@
     border-radius: 5px;
     height:200px;
     width:300px;
-    background-color: rgb(215, 236, 255);
+    background-color: rgba(255, 255, 255, 0.993);
+}
+#btn1{
+    position: relative;
+    font-style: italic;
+    font-family: cursive;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #666666;
+}
+#btn{
+    position: relative;
+    float:right;
+    font-style: italic;
+    font-family: cursive;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #666666;
+    
 }
