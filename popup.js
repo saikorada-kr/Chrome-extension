@@ -1,6 +1,6 @@
-$(function(){
+ $(function(){
     $('name').keyup(function(){
-        $('#text').text(('#text').val());d
+        $('#text').text(('#text').val());
     });
         $("#btn1").click(function(){
         var value=$('textarea#text').val();
